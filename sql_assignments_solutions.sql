@@ -1,8 +1,3 @@
--- SQL Solutions for uploaded assignment (Prepared for GitHub upload)
--- File: sql_assignments_solutions.sql
--- Author: ChatGPT
--- Date: 2025-09-24
-
 /* --------------------------------------------------
    Section: SQL Basics - Assignment Questions
    -------------------------------------------------- */
@@ -13,6 +8,7 @@
 -- age (integer, should have a check constraint to ensure the age is at least 18)
 -- email (text, should be unique for each employee)
 -- salary (decimal, with a default value of 30,000).
+
 CREATE TABLE employees (
     emp_id INTEGER NOT NULL PRIMARY KEY,
     emp_name TEXT NOT NULL,
